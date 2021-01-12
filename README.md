@@ -52,8 +52,8 @@ cv2.waitKey(0)
 
 ---
 **3. Develop a program to find the sum and mean of a set of images. 
-     	Create ‘n’ number of images and read them from the directory and perform the operations.
-**
+     Create ‘n’ number of images and read them from the directory and perform the operations.**
+
 ```python
 
 #sum & Mean
