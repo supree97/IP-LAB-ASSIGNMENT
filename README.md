@@ -16,5 +16,5 @@ cv.imshow('flowers', numpy_horizontal_concat)
 cv.waitKey()
 ```
 ***output:***
-![](output_images/op1.png)
+![](OUTPUT IMAGES/prg1 output.jpg)
 ---
