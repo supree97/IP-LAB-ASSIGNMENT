@@ -84,3 +84,38 @@ sum of imgs(Total no) =  2
 ![](OUTPUT/prg3op2.jpg)
 
 ---
+**4. Develop a program to convert the color image to gray scale and binary image.n**
+```python
+#gray image
+import cv2 as cv
+img = cv.imread("tea.jpg")
+gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
+cv.imshow('Original',img)
+cv.imshow("Gray Image",gray)
+cv.waitKey(0)
+cv.destroyAllWindows()
+```
+***output:***
+
+![](OUTPUT/prg4op1.jpg)
+
+---
+
+
+```python
+#binary image
+import cv2 as cv
+img = cv.imread("tea.jpg")
+ret, b_img = cv.threshold(img,127,255,cv.THRESH_BINARY)
+cv2.imshow('Original',img)
+cv.imshow("Binary Image",b_img)
+cv.waitKey(0)
+cv.destroyAllWindows()
+
+```
+***output:***
+
+![](OUTPUT/prg4op2.jpg)
+
+---
+
