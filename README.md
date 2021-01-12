@@ -12,7 +12,7 @@ numpy_horizontal_concat = np.concatenate((image, grey_3_channel), axis=1)
 cv.imshow('flowers', numpy_horizontal_concat)
 cv.waitKey()
 ```
-
+***output:***
 ![](OUTPUT/prg1op.jpg)
 
 ---
