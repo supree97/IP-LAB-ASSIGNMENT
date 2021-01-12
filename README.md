@@ -1,6 +1,6 @@
 # IP-LAB-ASSIGNMENT
-1.	Develop a program to display grayscale image using read and write operation
-
+**1. Develop a program to display grayscale image using read and write operation.**
+```python
 import cv2 as cv
 import numpy as np
 image=cv.imread('tulips.jpg')
@@ -14,5 +14,7 @@ numpy_horizontal_concat = np.concatenate((image, grey_3_channel), axis=1)
 
 cv.imshow('flowers', numpy_horizontal_concat)
 cv.waitKey()
-
-output
+```
+***output:***
+![](output_images/op1.png)
+---
