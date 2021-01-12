@@ -118,4 +118,50 @@ cv.destroyAllWindows()
 ![](OUTPUT/prg4op2.jpg)
 
 ---
+**5.	Develop a program to convert the given color image to different color spaces.**
+```python
+import cv2
+img=cv2.imread("img.jpg")
+cv2.imshow("original",img)
+cv2.waitKey(0)
+#gray
+gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+cv2.imshow("GRAY image",gray)
+cv2.waitKey(0)
+#HSV
+cv2.imshow('HSV',cv2.cvtColor(img, cv2.COLOR_BGR2HSV))
+cv2.waitKey(0)
+#lab
+cv2.imshow('LAB',cv2.cvtColor(img, cv2.COLOR_BGR2LAB))
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
+```
+***output:***
+
+![](OUTPUT/prg5op1.jpg)
+
+![](OUTPUT/prg5op2.jpg)
+
+![](OUTPUT/prg5op3.jpg)
+
+![](OUTPUT/prg5op4.jpg)
+
+---
+
+**6.	Develop a program to create an image from 2D array (generate an array of random size).**
+```python
+import cv2
+import numpy as np
+#Random 2D Array
+array_img=np.random.randint(255,size=(300,500),dtype=np.uint8)
+cv2.imshow('arrayimage',array_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+```
+***output:***
+
+![](OUTPUT/prg6op.jpg)
+
+---
