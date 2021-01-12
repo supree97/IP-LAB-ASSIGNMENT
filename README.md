@@ -51,4 +51,36 @@ cv2.waitKey(0)
 
 
 ---
-hj
+**3. Develop a program to find the sum and mean of a set of images. 
+     	Create ‘n’ number of images and read them from the directory and perform the operations.
+**
+```python
+
+#sum & Mean
+import os
+path=r'D:\new'
+imgs=[]
+files=os.listdir(path) #List
+for file in files:
+    fpath=path+'\\'+file
+    imgs.append(cv2.imread(fpath))
+    
+for i,im in enumerate(imgs):
+    cv2.imshow(files[i],imgs[i])    
+    cv2.imshow('Mean of '+files[i],len(im)/im)
+print('sum of imgs(Total no) = ',i+1)    
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+```
+```
+sum of imgs(Total no) =  2
+```
+***output:***
+
+![](OUTPUT/prg3op1.jpg)
+
+
+![](OUTPUT/prg3op2.jpg)
+
+---
