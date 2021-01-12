@@ -84,7 +84,7 @@ sum of imgs(Total no) =  2
 ![](OUTPUT/prg3op2.jpg)
 
 ---
-**4. Develop a program to convert the color image to gray scale and binary image.n**
+**4. Develop a program to convert the color image to gray scale and binary image**
 ```python
 #gray image
 import cv2 as cv
