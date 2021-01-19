@@ -28,8 +28,13 @@ cv.waitKey()
 
 ---
 **2.Develop a program to perform linear transformations on an image: Scaling and Rotation**
-```python
 
+Description:
+Scaling is the procedure of measuring and assigning the objects to the numbers according to the specified
+ rules. In other words, the process of locating the measured objects on the continuum, a continuous sequence
+ of numbers to which the objects are assigned is called as scaling. cv2.resize() is uesd to resizes the given images.
+
+```python
 #scaling
 import cv2 as cv
 img=cv.imread("island.jpg")
@@ -65,6 +70,12 @@ cv2.waitKey(0)
 **3. Develop a program to find the sum and mean of a set of images. 
      Create ‘n’ number of images and read them from the directory and perform the operations.**
 
+Description:
+img.append is uesd to append all the images together Adding Images To add two images or add a
+ constant value to an image. • [imadd] function adds the value of each pixel in one of the input 
+images with the corresponding pixel in the other input image and returns the sum in the corresponding 
+pixel of the output image.
+
 ```python
 
 #sum & Mean
@@ -96,7 +107,20 @@ sum of imgs(Total no) =  2
 
 ---
 **4. Develop a program to convert the color image to gray scale and binary image**
+
+Description:
+Binary images: are images whose pixels have only two possible intensity values. 
+Binary images are often produced by thresholding a grayscale or color image, in 
+order to separate an object in the image from the background. The color of the 
+object (usually white) is referred to as the foreground color.
+Grayscale image:A grayscale (or graylevel) image is simply one in which the only
+ colors are shades of gray. ... Often, the grayscale intensity is stored as an 8-bit 
+integer giving 256 possible different shades of gray from black to white. 
+threshold:Thresholding produces a binary image, where all pixels with intensities above 
+(or below) a threshold value are turned on, while all other pixels are turned off.
+
 ```python
+
 #gray image
 import cv2 as cv
 img = cv.imread("tea.jpg")
@@ -130,6 +154,15 @@ cv.destroyAllWindows()
 
 ---
 **5.	Develop a program to convert the given color image to different color spaces.**
+
+DESCRIPTION:
+A color space is a specific organization of colors. ... Adding a specific mapping function
+ between a color model and a reference color space establishes within the reference color 
+space a definite "footprint", known as a gamut , and for a given color model this defines 
+a color space. COLOR_BGR2RGB is used to convert bgr image to RGB image COLOR_BGR2HSV is 
+used to convert BGR image to HSV image COLOR_BGR2YCrCb is uesd to convert BGR image to 
+YCrCb image
+
 ```python
 import cv2
 img=cv2.imread("img.jpg")
@@ -161,6 +194,17 @@ cv2.destroyAllWindows()
 ---
 
 **6.	Develop a program to create an image from 2D array (generate an array of random size).**
+
+Description:
+An image is an array, or a matrix, of square pixels (picture elements) arranged in columns and rows.
+An image — an array or a matrix of pixels arranged in columns and rows. In a (8-bit) greyscale image 
+each picture element has an assigned intensity that ranges from 0 to 255. A 2D array has a type such 
+as int[][] or String[][], with two pairs of square brackets. ... The elements of a 2D array are arranged 
+in rows and columns, and the new operator for 2D arrays specifies both the number of rows and the number 
+of columns. PIL: Python Imaging Library (abbreviated as PIL) (in newer versions known as Pillow) is a 
+free and open-source additional library for the Python programming language that adds support for opening, 
+manipulating, and saving many different image file formats. It is available for Windows, Mac OS X and Linux.
+
 ```python
 import cv2
 import numpy as np
