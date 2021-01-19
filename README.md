@@ -221,3 +221,9 @@ cv2.destroyAllWindows()
 
 ---
 
+**7.  Find the sum of the neighborhood values of the matrix.**
+
+```python
+
+import numpy as np
+```
