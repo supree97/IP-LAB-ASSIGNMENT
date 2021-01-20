@@ -273,3 +273,28 @@ initial_array :  [[1 2 5 3]   [4 5 4 7]  [9 6 1 0]]
  [0, 0, 0, 0, 0]]
  
  ---
+ **9.  Develop a program to implement negative transformation**
+
+```python
+
+import cv2 
+import numpy as np
+image=cv2.imread("flower.jpg")
+cv2.imshow("original",image)
+cv2.waitKey(0)
+img_neg=225-image
+cv2.imshow("negativeimage",img_neg)
+cv2.waitKey(0)
+
+```
+***output:***
+
+![](sample1output1.jpg)
+
+![](sample1output2.jpg)
+
+---
+
+
+
+
