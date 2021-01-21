@@ -521,7 +521,7 @@ cv2.waitKey(0)
 
 ---
 
-**12.  Develop a program to enhance image arithmetic and logic operations**
+**13.  Develop a program to enhance image arithmetic and logic operations**
 
 ```python
 
