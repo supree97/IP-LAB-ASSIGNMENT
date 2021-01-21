@@ -291,7 +291,7 @@ cv2.waitKey(0)
 
 ![](sample1output1.jpg)
 
-![](sample1output1.jpg)
+![](sample1output2.jpg)
 
 ---
 
