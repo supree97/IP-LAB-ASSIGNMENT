@@ -407,7 +407,7 @@ multiplication is 27 40 35 52
 
 ---
 
- **9.  Develop a program to implement negative transformation**
+ **10.  Develop a program to implement negative transformation**
 
 ```python
 
@@ -422,8 +422,32 @@ cv2.waitKey(0)
 ```
 ***output:***
 
-![](OUTPUT/sample1output1.jpg)
+![](OUTPUT/prg9op1.jpg)
    
-![](OUTPUT/sample1output2.jpg)  
+![](OUTPUT/prg9op2.jpg)  
 
 ---
+
+ **11.  Develop a program to implement contrast transformation**
+
+```python
+
+from PIL import Image, ImageEnhance  
+im = Image.open(r"nature.jpg")
+im.show()
+im3 = ImageEnhance.Color(im) 
+im3.enhance(4.3).show()
+
+```
+***output:***
+
+![](OUTPUT/prg10op1.jpg)
+   
+![](OUTPUT/prg10op2.jpg)  
+
+---
+
+
+
+
+
