@@ -492,8 +492,9 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ```
 
-***output:***
 
+***output:***
 ![](OUTPUT/prg11op.jpg)
 
 ---
+
