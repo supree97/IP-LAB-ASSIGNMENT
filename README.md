@@ -273,6 +273,51 @@ initial_array :  [[1 2 5 3]   [4 5 4 7]  [9 6 1 0]]
  [0, 0, 0, 0, 0]]
  
  ---
+
+**9. operator overloading **
+
+```cpp
+
+#include using namespace std; class matrix { int r1, c1, i, j, a1; int a[10][10];
+
+public:int get() { cout << "Enter the row and column size for the matrix\n"; cin >> r1; cin >> c1; cout << "Enter the elements of the matrix\n"; for (i = 0; i < r1; i++) { for (j = 0; j < c1; j++) { cin>>a[i][j];
+
+} }
+
+}; void operator+(matrix a1) { int c[i][j];
+
+for (i = 0; i < r1; i++) { for (j = 0; j < c1; j++) { c[i][j] = a[i][j] + a1.a[i][j]; }
+
+} cout<<"addition is\n"; for(i=0;i<r1;i++) { cout<<" "; for (j = 0; j < c1; j++) { cout<<c[i][j]<<"\t"; } cout<<"\n"; }
+
+};
+
+void operator-(matrix a2) { int c[i][j];
+
+for (i = 0; i < r1; i++) { for (j = 0; j < c1; j++) { c[i][j] = a[i][j] - a2.a[i][j]; }
+
+} cout<<"subtraction is\n"; for(i=0;i<r1;i++) { cout<<" "; for (j = 0; j < c1; j++) { cout<<c[i][j]<<"\t"; } cout<<"\n"; } };
+
+void operator*(matrix a3) { int c[i][j];
+
+for (i = 0; i < r1; i++) { for (j = 0; j < c1; j++) { c[i][j] =0; for (int k = 0; k < r1; k++) { c[i][j] += a[i][k] * (a3.a[k][j]); } } } cout << "multiplication is\n"; for (i = 0; i < r1; i++) { cout << " "; for (j = 0; j < c1; j++) { cout << c[i][j] << "\t"; } cout << "\n"; } };
+
+};
+
+int main() { matrix p,q; p.get(); q.get(); p + q; p - q; p * q; return 0; 
+}
+
+```
+**output:**
+Enter the row and column size for the matrix 2 2 
+Enter the elements of the matrix 6 7 8 9 
+Enter the row and column size for the matrix 2 2
+Enter the elements of the matrix 1 2 3 4 
+addition is 7 9 11 13 
+subtraction is 5 5 5 5
+multiplication is 27 40 35 52
+---
+
  **9.  Develop a program to implement negative transformation**
 
 ```python
@@ -293,6 +338,3 @@ cv2.waitKey(0)
 ![](OUTPUT/sample1output2.jpg)  
 
 ---
-
-
-
