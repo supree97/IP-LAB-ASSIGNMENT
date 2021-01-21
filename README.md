@@ -288,6 +288,8 @@ cv2.waitKey(0)
 ```
 ***output:***
 ![](OUTPUT/sample1output1.jpg)
+   
+![](OUTPUT/sample1output2.jpg)  
 
 ---
 
