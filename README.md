@@ -517,6 +517,6 @@ cv2.waitKey(0)
 
 ***output:***
 
-![](OUTPUT/prg12op.png)
+![](OUTPUT/prg12op.jpg)
 
 ---
