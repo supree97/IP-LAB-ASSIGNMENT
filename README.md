@@ -524,7 +524,7 @@ cv2.waitKey(0)
 **12.  Develop a program to enhance image arithmetic and logic operations**
 
 ```python
-
+**arithmetic operations**
 # organizing imports  
 import cv2  
 import numpy as np  
@@ -542,17 +542,23 @@ weightedSum = cv2.addWeighted(image1, 0.5, image2, 0.4, 0)
   
 # the window showing output image 
 # with the weighted sum  
-cv2.imshow('Weighted Image', weightedSum) 
-  
+cv2.imshow('Weighted Image', weightedSum)#addition operation
+
+# cv2.subtract is applied over the 
+# image inputs with applied parameters 
+sub = cv2.subtract(image1, image2) 
+
+# the window showing output image 
+# with the subtracted image 
+cv2.imshow('Subtracted Image', sub) 
 # De-allocate any associated memory usage   
 if cv2.waitKey(0) & 0xff == 27:  
     cv2.destroyAllWindows()  
- 
  ```
  
  ***output:***
 
-![](OUTPUT/prg13op.jpg)
+![](OUTPUT/prg13op1.jpg)
 
 ---
-
+ **logical operations**
