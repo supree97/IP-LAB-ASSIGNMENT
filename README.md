@@ -524,6 +524,7 @@ cv2.waitKey(0)
 **12.  Develop a program to enhance image arithmetic and logic operations**
 
 ```python
+
 **arithmetic operations**
 # organizing imports  
 import cv2  
@@ -553,7 +554,8 @@ sub = cv2.subtract(image1, image2)
 cv2.imshow('Subtracted Image', sub) 
 # De-allocate any associated memory usage   
 if cv2.waitKey(0) & 0xff == 27:  
-    cv2.destroyAllWindows()  
+    cv2.destroyAllWindows()
+    
  ```
  
  ***output:***
@@ -561,4 +563,16 @@ if cv2.waitKey(0) & 0xff == 27:
 ![](OUTPUT/prg13op1.jpg)
 
 ---
+
+
+```python
+
  **logical operations**
+ 
+ ```
+ 
+ ***output:***
+
+![](OUTPUT/prg13op2.jpg)
+
+---
