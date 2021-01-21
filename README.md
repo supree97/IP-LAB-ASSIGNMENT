@@ -285,16 +285,11 @@ cv2.waitKey(0)
 img_neg=225-image
 cv2.imshow("negativeimage",img_neg)
 cv2.waitKey(0)
-
 ```
 ***output:***
-
-![](sample1output1.jpg)
-
-![](sample1output2.jpg)
+![](OUTPUT/sample1output1.jpg)
 
 ---
-
 
 
 
