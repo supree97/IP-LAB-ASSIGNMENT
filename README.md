@@ -23,6 +23,7 @@ numpy_horizontal_concat = np.concatenate((image, grey_3_channel), axis=1)
 cv.imshow('flowers', numpy_horizontal_concat)
 cv.waitKey()
 ```
+
 ***output:***
 ![](OUTPUT/prg1op.jpg)
 
@@ -494,7 +495,8 @@ if cv2.waitKey(0) & 0xff == 27:
 
 
 ***output:***
-![](OUTPUT/prg11op.jpg)
+
+![](OUTPUT/prg11op.png)
 
 ---
 
