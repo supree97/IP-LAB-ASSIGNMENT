@@ -448,7 +448,7 @@ im3.enhance(4.3).show()
 
 ---
 
-**11.  Develop a program to implement threshold transformation of the image**
+**12.  Develop a program to implement threshold transformation of the image**
 
 ```python
 
@@ -500,7 +500,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ---
 
-**12.  Develop a program to implement power law transformation**
+**13.  Develop a program to implement power law transformation**
 
 ```python
 
@@ -521,7 +521,7 @@ cv2.waitKey(0)
 
 ---
 
-**13.  Develop a program to enhance image arithmetic and logic operations**
+**14.  Develop a program to enhance image arithmetic and logic operations**
 
 ```python
 
